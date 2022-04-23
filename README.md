@@ -1,8 +1,3 @@
--- New launch/release, been 3 months since i have touched the surface of wrqehub, the project was discontinued and now i find it a hobby. recommend me stuff. 4/23/22
--- script made by wrqe#9521 on discord kid
-
--- https://discord.gg/2F8ybw5Uzk c:
-
 local ScreenGui = Instance.new("ScreenGui")
 local Main = Instance.new("Frame")
 local v2 = Instance.new("TextLabel")
@@ -17,8 +12,6 @@ local jailbreakauto = Instance.new("TextButton")
 local discord = Instance.new("TextLabel")
 local bedwars = Instance.new("TextButton")
 local toggleke = Instance.new("TextLabel")
-
---Properties:
 
 ScreenGui.Parent = game.CoreGui
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
@@ -99,7 +92,7 @@ fakedhmacro.TextColor3 = Color3.fromRGB(0, 0, 0)
 fakedhmacro.TextSize = 24.000
 fakedhmacro.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/jdnn1/fakedhmacro/main/README.md', true))()
-
+end)
 mm2.Name = "mm2"
 mm2.Parent = Main
 mm2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
