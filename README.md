@@ -98,8 +98,7 @@ fakedhmacro.Text = "Fake Da Hood Macro"
 fakedhmacro.TextColor3 = Color3.fromRGB(0, 0, 0)
 fakedhmacro.TextSize = 24.000
 fakedhmacro.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet('raw.githubusercontent.com/jdnn1/fakedhmacro/main/README.md'),true))()
-end)
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/jdnn1/fakedhmacro/main/README.md', true))()
 
 mm2.Name = "mm2"
 mm2.Parent = Main
